@@ -62,3 +62,9 @@ Los titulares son directos, curiosos y orientados a la acción. Los llamados a l
 ### Wordmark y símbolo
 
 La marca utiliza un **monograma “<>” construido como una libreta abierta**, acompañado por el nombre en DM Serif Display. El símbolo no depende del texto para reconocerse y se usa como elemento de navegación y favicon.
+
+## Style Decisions
+
+- El **Azul Cobalto de Registro #1E4B8F** se reserva de forma permanente para navegación, acciones principales, estados activos y líneas de registro. Los colores de cada práctica funcionan únicamente como identificadores secundarios.
+- Cada práctica muestra el monograma **“<>” como libreta abierta** junto al nombre del laboratorio en DM Serif Display; la etiqueta funcional del ejercicio acompaña la marca, sin sustituirla.
+- El margen de libreta combina una línea vertical, nodo numerado y fichas de observación, de modo que formularios, resultados y tablas se lean como registros de laboratorio y no como componentes administrativos genéricos.
