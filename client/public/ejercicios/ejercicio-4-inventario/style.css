@@ -1,0 +1,4 @@
+/* Diseño «Cuaderno de Señales»: violeta modular para inventario; la tabla funciona como un registro de laboratorio ordenado y actualizable. */
+@import url("../shared-lab.css");
+:root { --accent: #7657a8; --accent-pale: #eee8f7; }
+code { padding: 1px 4px; color: #68489a; background: rgba(118,87,168,.10); font-family: ui-monospace, monospace; font-size: .9em; }

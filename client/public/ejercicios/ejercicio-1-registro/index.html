@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#D8674E" />
+  <title>Ejercicio 1 · Registro</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <nav class="practice-nav" aria-label="Navegación de la práctica">
+      <a class="back-link" href="/">← Volver al laboratorio</a>
+      <span class="brand-mini"><span class="brand-mark">&lt;&gt;</span> Registro personal</span>
+    </nav>
+    <main>
+      <header class="practice-hero">
+        <p class="practice-index">Práctica 01 / DOM básico</p>
+        <div><h1>Registra una <em>señal.</em></h1><p class="practice-description">Convierte los datos básicos de una persona en un mensaje visible dentro de la interfaz. Aquí se practica la lectura de valores, las validaciones y el uso de <code>innerHTML</code>.</p></div>
+      </header>
+      <section class="exercise-layout" aria-label="Formulario de registro">
+        <article class="form-panel">
+          <div class="panel-head"><p class="panel-kicker">Entrada de datos</p><p>Completa los cuatro campos para registrar una observación.</p></div>
+          <form id="formularioRegistro" class="form-body" novalidate>
+            <div class="fields-grid">
+              <div class="field full"><label for="nombre">Nombre completo</label><input id="nombre" name="nombre" type="text" placeholder="Ej. Nicolás Ramírez" autocomplete="name" /></div>
+              <div class="field"><label for="edad">Edad</label><input id="edad" name="edad" type="number" min="1" placeholder="Ej. 25" inputmode="numeric" /></div>
+              <div class="field"><label for="ciudad">Ciudad</label><input id="ciudad" name="ciudad" type="text" placeholder="Ej. Bogotá" autocomplete="address-level2" /></div>
+              <div class="field full"><label for="correo">Correo electrónico</label><input id="correo" name="correo" type="email" placeholder="ejemplo@correo.com" autocomplete="email" /></div>
+            </div>
+            <div class="submit-row"><button class="action-button" type="submit">Registrar datos <span aria-hidden="true">→</span></button><p id="errorRegistro" class="validation-message" role="alert" aria-live="polite"></p></div>
+          </form>
+        </article>
+        <aside>
+          <section class="result-panel" aria-labelledby="tituloResultado"><h2 id="tituloResultado">Observación</h2><p>El resultado se genera con JavaScript debajo del formulario.</p><div id="resultadoRegistro" class="result-content" aria-live="polite"><p class="empty">Aún no hay datos registrados. Completa el formulario para ver la respuesta.</p></div></section>
+          <section class="info-note"><h3>En esta práctica</h3><ul><li><code>getElementById()</code> selecciona los campos.</li><li><code>.value</code> obtiene los datos escritos.</li><li>Una condición <code>if</code> evita registros incompletos.</li></ul></section>
+        </aside>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

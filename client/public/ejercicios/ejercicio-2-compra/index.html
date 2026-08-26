@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#C28A18" />
+  <title>Ejercicio 2 · Calculadora de compra</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <nav class="practice-nav" aria-label="Navegación de la práctica"><a class="back-link" href="/">← Volver al laboratorio</a><span class="brand-mini"><span class="brand-mark">$</span> Calculadora de compra</span></nav>
+    <main>
+      <header class="practice-hero"><p class="practice-index">Práctica 02 / Operaciones</p><div><h1>Calcula con <em>intención.</em></h1><p class="practice-description">Elige un producto, indica cuántas unidades necesitas y observa cómo JavaScript construye el subtotal, el IVA del 19 % y el total, incluyendo el reto de descuento.</p></div></header>
+      <section class="exercise-layout" aria-label="Calculadora de compra">
+        <article class="form-panel">
+          <div class="panel-head"><p class="panel-kicker">Datos de compra</p><p>Los precios se actualizan al seleccionar un producto.</p></div>
+          <form id="formularioCompra" class="form-body" novalidate>
+            <div class="fields-grid">
+              <div class="field full"><label for="producto">Producto</label><select id="producto" name="producto"><option value="">Selecciona un producto</option><option value="Hamburguesa" data-precio="15000">Hamburguesa</option><option value="Pizza personal" data-precio="22000">Pizza personal</option><option value="Ensalada fresca" data-precio="12000">Ensalada fresca</option><option value="Jugo natural" data-precio="7000">Jugo natural</option></select></div>
+              <div class="field"><label for="precio">Precio unitario</label><input id="precio" name="precio" type="text" value="$0" readonly aria-describedby="ayudaPrecio" /><p id="ayudaPrecio" class="field-help">Se obtiene según el producto elegido.</p></div>
+              <div class="field"><label for="cantidad">Cantidad</label><input id="cantidad" name="cantidad" type="number" min="1" placeholder="Ej. 3" inputmode="numeric" /></div>
+              <div class="field full"><label for="descuento">Descuento (%) <span aria-hidden="true">—</span> reto adicional</label><input id="descuento" name="descuento" type="number" min="0" max="100" value="0" inputmode="decimal" /><p class="field-help">Opcional. Ingresa un valor entre 0 y 100.</p></div>
+            </div>
+            <div class="submit-row"><button class="action-button" type="submit">Calcular compra <span aria-hidden="true">→</span></button><p id="errorCompra" class="validation-message" role="alert" aria-live="polite"></p></div>
+          </form>
+        </article>
+        <aside><section class="result-panel" aria-labelledby="tituloCompra"><h2 id="tituloCompra">Cuenta de compra</h2><p>Los resultados se muestran al calcular.</p><div id="resultadoCompra" class="result-content" aria-live="polite"><p class="empty">Selecciona un producto e indica una cantidad para obtener el total.</p></div></section><section class="info-note"><h3>Fórmula aplicada</h3><p>Subtotal = precio × cantidad. El IVA corresponde al 19 % del subtotal. El descuento se aplica sobre el subtotal antes de sumar el IVA.</p></section></aside>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
