@@ -1,5 +1,6 @@
 /* Diseño «Cuaderno de Señales»: la práctica académica utiliza verde para aprobación y coral para reprobación, reforzando el estado sin depender solo del texto. */
 @import url("../shared-lab.css");
-:root { --accent: #438266; --accent-pale: #e6f1e9; }
+:root { --exercise-accent: #438266; --exercise-pale: #e6f1e9; }
 code { padding: 1px 4px; color: #347158; background: rgba(67,130,102,.10); font-family: ui-monospace, monospace; font-size: .9em; }
+.practice-index, .practice-hero h1 em { color: var(--exercise-accent); }
 #panelResultadoNotas.reprobado { --accent: #b53f41; --accent-pale: #f7e6e4; }

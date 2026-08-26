@@ -1,4 +1,5 @@
 /* Diseño «Cuaderno de Señales»: el coral identifica el registro y transforma el resultado en una ficha de observación. */
 @import url("../shared-lab.css");
-:root { --accent: #d8674e; --accent-pale: #f8e9e4; }
+:root { --exercise-accent: #d8674e; --exercise-pale: #f8e9e4; }
 code { padding: 1px 4px; color: #a54c3c; background: rgba(216,103,78,.1); font-family: ui-monospace, monospace; font-size: .9em; }
+.practice-index, .practice-hero h1 em { color: var(--exercise-accent); }

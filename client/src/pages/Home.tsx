@@ -9,9 +9,9 @@ const exercises = [
   {
     number: "01",
     title: "Registro",
-    description: "Captura datos personales y responde con un mensaje generado desde el DOM.",
+    description: "Registra datos personales y observa una respuesta visible creada con el DOM.",
     path: "./ejercicios/ejercicio-1-registro/index.html",
-    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=85",
+    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=1200&q=85",
     icon: ClipboardPenLine,
     accent: "coral",
     tags: [".value", "innerHTML", "if"],
@@ -19,7 +19,7 @@ const exercises = [
   {
     number: "02",
     title: "Compra",
-    description: "Convierte valores, calcula subtotal, IVA y descuento en una misma operación.",
+    description: "Registra una compra y observa subtotal, IVA y descuento en una sola ficha.",
     path: "./ejercicios/ejercicio-2-compra/index.html",
     image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=85",
     icon: Calculator,
@@ -29,9 +29,9 @@ const exercises = [
   {
     number: "03",
     title: "Notas",
-    description: "Promedia calificaciones, valida rangos y comunica el estado del estudiante.",
+    description: "Registra tres notas, valida los rangos y observa el estado académico.",
     path: "./ejercicios/ejercicio-3-notas/index.html",
-    image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1200&q=85",
+    image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1200&q=85",
     icon: CheckCircle2,
     accent: "green",
     tags: ["if / else", "clases CSS", "promedio"],
@@ -39,7 +39,7 @@ const exercises = [
   {
     number: "04",
     title: "Inventario",
-    description: "Registra, lista y elimina productos mientras actualiza los totales en vivo.",
+    description: "Registra productos y observa cómo los totales cambian con cada evento.",
     path: "./ejercicios/ejercicio-4-inventario/index.html",
     image: null,
     icon: PackagePlus,
@@ -54,7 +54,7 @@ export default function Home() {
       <header className="lab-nav">
         <a className="lab-brand" href="#inicio" aria-label="Ir al inicio del laboratorio">
           <span className="lab-brand-mark" aria-hidden="true">&lt;&gt;</span>
-          <span>Lab. JS</span>
+          <span className="lab-brand-copy"><strong>Laboratorio</strong><em>de Interfaces JS</em></span>
         </a>
         <p className="lab-nav-note">HTML · CSS · JavaScript</p>
         <a className="lab-nav-link" href="#practicas">Ver prácticas <ArrowUpRight size={16} aria-hidden="true" /></a>
@@ -72,7 +72,7 @@ export default function Home() {
             <a className="hero-cta" href="#practicas">Abrir el cuaderno <ArrowUpRight size={18} aria-hidden="true" /></a>
           </div>
           <div className="lab-hero-visual" aria-hidden="true">
-            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=85" alt="Estudiantes colaborando alrededor de una mesa de trabajo" />
+            <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=1600&q=85" alt="Mesa de trabajo con cuaderno, portátil y materiales de estudio" />
             <div className="hero-stamp"><span>4</span><small>prácticas<br />interactivas</small></div>
           </div>
         </section>

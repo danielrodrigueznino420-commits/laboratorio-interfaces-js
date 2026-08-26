@@ -71,3 +71,4 @@ La marca utiliza un **monograma “<>” construido como una libreta abierta**, 
 - El monograma **“<>”** debe conservar la lectura de libreta abierta aun en una cabecera compacta; la marca Laboratorio de Interfaces JS mantiene una presencia equivalente a la etiqueta del ejercicio.
 - Las tablas, filtros y estados vacíos se expresan como **registros de observación sobre papel**, con etiquetas, notas de contexto y acciones integradas en el lenguaje del cuaderno.
 - El violeta identifica exclusivamente la práctica de inventario en nodos, sellos y énfasis puntuales; el Azul Cobalto de Registro conserva la jerarquía principal de navegación, estructura y acciones.
+- La fotografía se elige como evidencia de práctica: cuadernos, manos registrando, pantallas y mesas de trabajo; se evitan imágenes corporativas genéricas sin relación con la observación o el aprendizaje.
