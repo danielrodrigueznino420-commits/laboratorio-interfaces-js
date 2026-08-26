@@ -10,8 +10,8 @@ const exercises = [
     number: "01",
     title: "Registro",
     description: "Captura datos personales y responde con un mensaje generado desde el DOM.",
-    path: "/ejercicios/ejercicio-1-registro/index.html",
-    image: "/manus-storage/lab-register-stilllife_0bc4a973.jpg",
+    path: "./ejercicios/ejercicio-1-registro/index.html",
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1200&q=85",
     icon: ClipboardPenLine,
     accent: "coral",
     tags: [".value", "innerHTML", "if"],
@@ -20,8 +20,8 @@ const exercises = [
     number: "02",
     title: "Compra",
     description: "Convierte valores, calcula subtotal, IVA y descuento en una misma operación.",
-    path: "/ejercicios/ejercicio-2-compra/index.html",
-    image: "/manus-storage/lab-calculator-stilllife_4eb561a6.jpg",
+    path: "./ejercicios/ejercicio-2-compra/index.html",
+    image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=1200&q=85",
     icon: Calculator,
     accent: "amber",
     tags: ["Number()", "cálculos", "formularios"],
@@ -30,8 +30,8 @@ const exercises = [
     number: "03",
     title: "Notas",
     description: "Promedia calificaciones, valida rangos y comunica el estado del estudiante.",
-    path: "/ejercicios/ejercicio-3-notas/index.html",
-    image: "/manus-storage/lab-notes-stilllife_b0628295.jpg",
+    path: "./ejercicios/ejercicio-3-notas/index.html",
+    image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?auto=format&fit=crop&w=1200&q=85",
     icon: CheckCircle2,
     accent: "green",
     tags: ["if / else", "clases CSS", "promedio"],
@@ -40,7 +40,7 @@ const exercises = [
     number: "04",
     title: "Inventario",
     description: "Registra, lista y elimina productos mientras actualiza los totales en vivo.",
-    path: "/ejercicios/ejercicio-4-inventario/index.html",
+    path: "./ejercicios/ejercicio-4-inventario/index.html",
     image: null,
     icon: PackagePlus,
     accent: "violet",
@@ -53,7 +53,7 @@ export default function Home() {
     <div className="lab-home">
       <header className="lab-nav">
         <a className="lab-brand" href="#inicio" aria-label="Ir al inicio del laboratorio">
-          <img src="/manus-storage/lab-mark_cf06f071.png" alt="Símbolo del Laboratorio de Interfaces JS" />
+          <span className="lab-brand-mark" aria-hidden="true">&lt;&gt;</span>
           <span>Lab. JS</span>
         </a>
         <p className="lab-nav-note">HTML · CSS · JavaScript</p>
@@ -72,7 +72,7 @@ export default function Home() {
             <a className="hero-cta" href="#practicas">Abrir el cuaderno <ArrowUpRight size={18} aria-hidden="true" /></a>
           </div>
           <div className="lab-hero-visual" aria-hidden="true">
-            <img src="/manus-storage/lab-hero-editorial_ad35666b.jpg" alt="" />
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1600&q=85" alt="Estudiantes colaborando alrededor de una mesa de trabajo" />
             <div className="hero-stamp"><span>4</span><small>prácticas<br />interactivas</small></div>
           </div>
         </section>
@@ -123,7 +123,7 @@ export default function Home() {
       </main>
 
       <footer className="lab-footer">
-        <div><img src="/manus-storage/lab-mark_cf06f071.png" alt="" /><span>Laboratorio de Interfaces JS</span></div>
+        <div><span className="lab-footer-mark" aria-hidden="true">&lt;&gt;</span><span>Laboratorio de Interfaces JS</span></div>
         <p>Registrar · Calcular · Validar · Actualizar</p>
       </footer>
     </div>

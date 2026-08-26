@@ -203,9 +203,11 @@ function vitePluginStorageProxy(): Plugin {
   };
 }
 
+const githubPagesBase = process.env.GITHUB_PAGES === "true" ? "/laboratorio-interfaces-js/" : "/";
 const plugins = [react(), tailwindcss(), jsxLocPlugin(), vitePluginManusRuntime(), vitePluginManusDebugCollector(), vitePluginStorageProxy()];
 
 export default defineConfig({
+  base: githubPagesBase,
   plugins,
   resolve: {
     alias: {

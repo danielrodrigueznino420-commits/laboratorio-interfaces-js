@@ -1,0 +1,4 @@
+/* Diseño «Cuaderno de Señales»: el azafrán de cálculo distingue los importes, los campos numéricos y los resultados monetarios. */
+@import url("../shared-lab.css");
+:root { --accent: #b77b0e; --accent-pale: #fbf0d9; }
+.result-content .purchase-product { margin: 0 0 13px; color: #68717b; font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }.money-list { display: grid; gap: 8px; }.money-list div { display: flex; justify-content: space-between; gap: 15px; padding-bottom: 8px; border-bottom: 1px solid rgba(23,36,61,.12); font-size: .82rem; }.money-list strong { color: var(--accent); }.money-list .total-line { margin-top: 4px; padding: 11px; border: 0; background: rgba(255,255,255,.58); font-family: 'DM Serif Display', Georgia, serif; font-size: 1.3rem; }.money-list .total-line strong { font-weight: 400; }
