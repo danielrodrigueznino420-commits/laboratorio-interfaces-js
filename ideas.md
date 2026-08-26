@@ -68,3 +68,6 @@ La marca utiliza un **monograma “<>” construido como una libreta abierta**, 
 - El **Azul Cobalto de Registro #1E4B8F** se reserva de forma permanente para navegación, acciones principales, estados activos y líneas de registro. Los colores de cada práctica funcionan únicamente como identificadores secundarios.
 - Cada práctica muestra el monograma **“<>” como libreta abierta** junto al nombre del laboratorio en DM Serif Display; la etiqueta funcional del ejercicio acompaña la marca, sin sustituirla.
 - El margen de libreta combina una línea vertical, nodo numerado y fichas de observación, de modo que formularios, resultados y tablas se lean como registros de laboratorio y no como componentes administrativos genéricos.
+- El monograma **“<>”** debe conservar la lectura de libreta abierta aun en una cabecera compacta; la marca Laboratorio de Interfaces JS mantiene una presencia equivalente a la etiqueta del ejercicio.
+- Las tablas, filtros y estados vacíos se expresan como **registros de observación sobre papel**, con etiquetas, notas de contexto y acciones integradas en el lenguaje del cuaderno.
+- El violeta identifica exclusivamente la práctica de inventario en nodos, sellos y énfasis puntuales; el Azul Cobalto de Registro conserva la jerarquía principal de navegación, estructura y acciones.
